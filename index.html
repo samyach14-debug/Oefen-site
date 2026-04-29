@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Mijn Eerste Website</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">Nova Studio</div>
+
+      <div class="nav-links">
+        <a href="#diensten">Diensten</a>
+        <a href="#over">Over ons</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="label">Professionele websites voor ondernemers</p>
+      <h1>Een moderne website die vertrouwen uitstraalt.</h1>
+      <p class="subtitle">
+        Wij bouwen simpele, snelle en professionele websites voor lokale bedrijven,
+        webshops en dienstverleners.
+      </p>
+
+      <div class="buttons">
+        <a href="#contact" class="btn primary">Vraag offerte aan</a>
+        <a href="#diensten" class="btn secondary">Bekijk diensten</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="diensten" class="section">
+      <h2>Onze diensten</h2>
+      <p class="section-intro">
+        Alles wat je nodig hebt om professioneel online zichtbaar te zijn.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Website ontwerp</h3>
+          <p>Een moderne website die past bij jouw merk en doelgroep.</p>
+        </div>
+
+        <div class="card">
+          <h3>Responsive design</h3>
+          <p>De website werkt goed op mobiel, tablet en desktop.</p>
+        </div>
+
+        <div class="card">
+          <h3>Snelle oplevering</h3>
+          <p>Een duidelijke structuur, nette uitstraling en snelle laadtijd.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="over" class="section light">
+      <h2>Waarom kiezen voor ons?</h2>
+      <p>
+        Veel websites zijn rommelig, langzaam of voelen onprofessioneel aan.
+        Wij focussen op duidelijkheid, vertrouwen en conversie. Bezoekers moeten
+        direct begrijpen wie je bent, wat je aanbiedt en waarom ze contact moeten opnemen.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Klaar voor een betere website?</h2>
+      <p>Laat je gegevens achter en we nemen contact met je op.</p>
+
+      <form id="contactForm">
+        <input type="text" placeholder="Naam" required />
+        <input type="email" placeholder="E-mailadres" required />
+        <textarea placeholder="Vertel kort wat je nodig hebt" required></textarea>
+        <button type="submit">Verstuur aanvraag</button>
+      </form>
+
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Nova Studio. Alle rechten voorbehouden.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
