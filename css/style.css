@@ -30,9 +30,10 @@ body {
   align-items: center;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+.site-logo {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
