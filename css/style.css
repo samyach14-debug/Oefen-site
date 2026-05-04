@@ -4,10 +4,10 @@
 ================================ */
 
 :root {
-  --kleur-donker: #111827;
-  --kleur-blauw: #1e3a8a;
-  --kleur-blauw-hover: #1d4ed8;
-  --kleur-lichtblauw: #dbeafe;
+  --kleur-donker: #3b1f0f;
+  --kleur-blauw: #7c2d12;
+  --kleur-blauw-hover: #9a3412;
+  --kleur-lichtblauw: #fef3c7;
   --kleur-tekst: #1f2937;
   --kleur-grijs: #64748b;
   --kleur-groen: #16a34a;
@@ -32,13 +32,13 @@ body {
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #111827, #1e3a8a);
+  background: linear-gradient(135deg, #3b1f0f, #7c2d12);
   color: white;
   padding: 30px;
 }
 
 .page-header {
-  background: linear-gradient(135deg, #111827, #1e3a8a);
+  background: linear-gradient(135deg, #3b1f0f, #7c2d12);
   color: white;
   padding: 30px 30px 90px;
 }
@@ -56,7 +56,7 @@ body {
 
 .page-header-content p {
   font-size: 20px;
-  color: #dbeafe;
+  color: #fef3c7;
 }
 
 .navbar {
@@ -100,7 +100,7 @@ body {
 }
 
 .label {
-  color: #bfdbfe;
+  color: #fde68a;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
@@ -115,7 +115,7 @@ h1 {
 
 .subtitle {
   font-size: 20px;
-  color: #dbeafe;
+  color: #fef3c7;
   max-width: 700px;
   margin: 0 auto 32px;
 }
@@ -136,7 +136,7 @@ h1 {
 
 .primary {
   background: white;
-  color: #1e3a8a;
+  color: #7c2d12;
 }
 
 .secondary {
@@ -215,7 +215,7 @@ textarea {
 
 button {
   padding: 16px;
-  background: #1e3a8a;
+  background: #7c2d12;
   color: white;
   border: none;
   border-radius: 12px;
@@ -225,7 +225,7 @@ button {
 }
 
 button:hover {
-  background: #1d4ed8;
+  background: #9a3412;
 }
 
 #formMessage {
@@ -269,7 +269,7 @@ footer {
 }
 
 .footer {
-  background: #111827;
+  background: #3b1f0f;
   color: white;
   padding: 60px 30px 25px;
 }
