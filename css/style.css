@@ -1,3 +1,18 @@
+/* ================================
+   KLANT-TEMPLATE INSTELLINGEN
+   Pas deze kleuren aan per klant
+================================ */
+
+:root {
+  --kleur-donker: #111827;
+  --kleur-blauw: #1e3a8a;
+  --kleur-blauw-hover: #1d4ed8;
+  --kleur-lichtblauw: #dbeafe;
+  --kleur-tekst: #1f2937;
+  --kleur-grijs: #64748b;
+  --kleur-groen: #16a34a;
+  --kleur-achtergrond: #f8fafc;
+}
 * {
   margin: 0;
   padding: 0;
